@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Declan Nelson</title>
+	<link rel="StyleSheet" type="text/css" href="v5style.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> -->
+
+</head>
+
+<body>
+	<header>
+        <div id="imgcontainer"><img id="mepic" src="images/bio_pic.jpeg" alt="Declan Nelson"></div>
+        <div id="headertext">
+            <h1>Declan Nelson</h1>
+            <h2><a class="topLinks" href="#experience">Coder</a> | <a class="topLinks" href="#projects"> Creator</a> | <a class="topLinks" href="#edu">Student</a></h2>
+            <h2><a class="bottomLinks" href="https://www.linkedin.com/in/declan-nelson178/"><img id="linkedinpic" src="images/linkedin.png" alt="LinkedIn icon"></a><a class="bottomLinks" href="https://github.com/DeclanNelson178"><img id="githubpic" src="images/github.jpg" alt="github icon"></a></h2>
+        </div>
+        <div style="clear:both"></div>
+	</header>
+    <div id="colLeft">
+        <div id="bio">
+            <h2 id="bioTitle">About Me</h2>
+            <p>
+                Hello, my name is Declan Nelson and I am currently a second-year at Georgia Tech studying Computer Science with a concentration in Artificial Intelligence and Theory. This specialization allows me to purse my passion for both computer science and mathematics, as well as the applications of both fields. I am currently interning this semester at IBM Mass Labs as a backend software engineer with the Data and AI team. I have previous experience in artificial intelligence research (robotics and dimension reduction algorithms) and presented some of my work at the MIT IEEE URTC conference in the fall of 2019. My primary passion is creating. I have created numerous side projects and approach every assignment, research opportunity, and internship as an opportunity to create. I love to combine my passion for creation with my interest in AI and the math behind computer science (linear algebra, algorithmic complexity, etc.). I am currently looking for an internship for the summer of 2021 which would allow me to exercise my passions.
+            </p>
+            <p>
+                Outside of computer science, I am fascinated by Chinese language and culture. I am minoring in Mandarin and hope to someday combine my CS skills with my mandarin skills and work abroad. This summer (2020), I will be studying abroad in Shanghai, China. I am incredibly excited by this opportunity and plan to gain fluency in the language. 
+            </p>
+        </div>
+
+        <div id="edu">
+            <h2 id="school">Education: Georgia Institute of Technology</h2>
+            <h3 id="schoolDate">(August 2018 - Present)</h3>
+                <h3 id="major">Major: Computer Science with a concentration in artificial Intelligence and CS theory</h3>
+                <h3>Minor: Mandarin</h3>
+                <h3>GPA: 3.91</h3>
+                <h3>Course Work:</h3>
+                    <div id="courses">
+                        <p>CS 1331: Intro to Object Oriented Programming, CS 1332: Data Structures and Algorithms, CS 2110: Computer Organization and Programming, MATH 1553: Linear Algebra, MATH 2552: Multivariable Calculus</p>
+                    </div>
+        </div>
+
+        <div id="experience">
+            <h2>Experience</h2>
+                <h3>IBM Mass Labs, Littleton, MA</h3>
+                <h3>Januray 2020 - May 2020</h3>
+                    <h4>Backend Software Engineer</h4>
+                        <ul>
+                            <li>Created automated testing software for the Data and AI team</li>
+                            <li>Learned the underlying functions of database software and deployed containers to test these functions</li>
+                            <li>Gained hands on experience with docker and kubernettes through building, running, and orchestrating containers</li>
+                        </ul>
+                <h3>WPI Data Science Lab, Worcester, MA</h3>
+                <h3>May 2019 - August 2019/h3>
+                    <h4>Software Engineer/Machine Learning Engineer</h4>
+                        <ul>
+                            <li>Created novel dimension reduction algorithms more efficient, robust, and flexible than current state-of-the-art models</li>
+                            <li>Implemented neural networks and custom loss functions using Python and Pytorch to find lower dimensional manifolds</li>
+                            <li>Model completed dimension reduction tasks that took current models over 30 minutes in just 0.25 seconds</li>
+                            <li>Served as the liaison between research team, PhD mentor, and faculty to manage expected deadlines and workload</li>					<li>Wrote a research paper accepted by multiple conferences and presented research at MIT IEEE URTC</li>
+                        </ul>
+                <h3>Georgia Tech Robotics Lab, Atlanta, GA</h3>
+                <h3>Janury 2019 - May 2019</h3>
+                    <h4>Software Engineer</h4>
+                        <ul>
+                            <li>Studied and replicated a statistical model for the motion of fish as an algorithm for marine exploration using MATLAB</li>
+                            <li>Implemented algorithm on helium blimp and was able to search more area faster than other competing search algorithms</li>
+                            <li>Demonstrated the searching efficiency of fish motion in comparison to correlated random walk using computer vision</li>
+                        </ul> 
+        </div>
+
+        <div id="projects">
+            <h2>Passion Projects</h2>
+                <img id="websitepic" src="images/website.jpg" alt="website icon">
+                <h3>Personal Website</h3>
+                    <ul>
+                        <li>www.declannelson.com was created using html, css, and JavaScript and used an introduction to web development.</li>
+                    </ul>
+                <div class="clear"></div>
+                <img id="martapic" src="images/marta.png" alt="marta icon">
+                <h3>sMARTA</h3>
+                    <ul>
+                        <li>Created an iPhone application for safely traveling on Atlanta’s public transportation by sharing trip details with friends</li>
+                        <li>Calculates time to destination from MARTA’s API, texts selected contacts trip details, and alerts friends of safe arrival</li>
+                        <li>Contacts friends with follow up steps if user does not respond to push notifications confirming safe arrival.</li>
+                    </ul>
+                <div class="clear"></div>
+                <img id="stockspic" src="images/stocks.png" alt="stocks icon">
+                <h3>Mad Money</h3>
+                    <ul>
+                        <li>Designed a web crawler to comb through Mad Money recaps for stock suggestions using Python and Beautiful Soup</li>
+                        <li>Tracked and graphed prices utilizing Alpha Vantage and Matplotlib to identify irrational investing behavior</li>
+                        <li>Created an automated script using Selenium to select and scan new recap article every weekday</li>
+                        <li>Implemented as a daemon to update periodically using Launchd</li>
+                        <li>Demonstrated an average net loss of 0.07% over a 7 day interval</li>
+                    </ul>
+                <div class="clear"></div>
+                <img id="gamepic" src="images/game.png" alt="marta icon">
+                <h3>Game of Life</h3>
+                    <ul>
+                        <li>Created Conway's game of life using Java and JavaFx</li>
+                        <li>Fully function desktop application with a graphical user interface for users to select starting cells, watch generations, and save results</li>
+                    </ul>
+        </div>
+
+    </div>
+    <div id="colRight">
+    <div id="contact">
+        <h2>Contact Me</h2>
+            <ul>
+                <li><img id="locationpic" src="images/location.png" alt="location icon">Boston, Ma | Atlanta, GA</li>
+                <li><a class="bottomLinks" href="mailto:df.nelson@gatech.edu"><img id="emailpic" src="images/email.png" alt="email icon">Email</a></li>
+                <!-- <li><a class="bottomLinks" href="https://www.linkedin.com/in/declan-nelson178/"><img id="linkedinpic" src="images/linkedin.png" alt="LinkedIn icon">LinkedIn</a></li>
+                <li><a class="bottomLinks" href="https://github.com/DeclanNelson178"><img id="githubpic" src="images/github.jpg" alt="github icon">GitHub</a></h3></li> -->
+            </ul>
+    </div>
+
+    <div id="skills">
+        <h2>Skills</h2>
+            <h3>Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>Swift</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            <h3>Frameworks and Libraries</h3>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>PyTorch</li>
+                    <li>AlphaVantage</li>
+                </ul>
+            <h3>Tools</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>SQL</li>
+                    <li>Linux</li>
+                </ul>
+    </div>
+    <div id="docs">
+        <h2>Documents</h2>
+            <h3><a href="./documents/resume.pdf">Resume</a></h3>
+            <h3><a href="./documents/DMVU-2.pdf">Research Paper</a></h3>
+    </div>
+    </div>
+
+</body>
+</html>
